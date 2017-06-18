@@ -1185,7 +1185,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var GlobalConfig = (function () {
     function GlobalConfig() {
-        this.apibaseAddress = 'http://localhost:1300/api';
+        this.apibaseAddress = 'https://dntmeanapp.herokuapp.com/api';
         this.cartName = "myCart";
     }
     return GlobalConfig;
@@ -1507,8 +1507,8 @@ var Cart = (function () {
                 firstname: user.fullName,
                 email: user.userName,
                 phone: user.contactNo,
-                surl: 'http://localhost:1300/api/store/paymentstatus',
-                furl: 'http://localhost:1300/api/store/paymentstatus',
+                surl: 'https://dntmeanapp.herokuapp.com/api/store/paymentstatus',
+                furl: 'https://dntmeanapp.herokuapp.com/api/store/paymentstatus',
                 service_provider: '',
                 hash: '',
                 udf1: cartId,
